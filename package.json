@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-github-stats",
-  "private": true,
+  "name": "sprout-github-stats",
+  "private": false,
   "description": "A stats dashboard for the Gatsby GitHub repo",
   "version": "0.3.0",
   "license": "MIT",
