@@ -22,9 +22,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lannonbr/gatsby-github-stats"
+    "url": "https://github.com/joemienko/sprout-github-stats"
   },
   "bugs": {
-    "url": "https://github.com/lannonbr/gatsby-github-stats/issues"
+    "url": "https://github.com/joemienko/sprout-github-stats/issues"
   }
 }
