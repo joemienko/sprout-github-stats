@@ -4,11 +4,11 @@ on:
 name: Upload to Firebase
 jobs:
   gatsbyStatsPoller:
-    name: Gatsby Stats Poller
+    name: Sprout Github Stats Poller
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Gatsby Stats Poller
+    - name: Sprout Github Stats Poller
       uses: ./.github/actions/github-poll
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

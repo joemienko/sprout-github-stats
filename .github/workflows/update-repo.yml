@@ -4,11 +4,11 @@ on:
 name: Update Repo
 jobs:
   gatsbyStatsLoader:
-    name: Gatsby Stats Loader
+    name: Sprout Github Stats Loader
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Gatsby Stats Loader
+      - name: Sprout Github Stats Loader
         uses: ./.github/actions/stats-loader
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

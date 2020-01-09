@@ -2,9 +2,9 @@ const path = require("path")
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Stats",
-    source: "https://github.com/lannonbr/gatsby-github-stats",
-    repoNameWithOwner: "gatsbyjs/gatsby",
+    title: "Sprout Github Stats",
+    source: "https://github.com/cssat/sprout-issues",
+    repoNameWithOwner: "cssat/sprout-issues",
   },
   plugins: [
     {

@@ -1,13 +1,13 @@
 FROM node:10-stretch
 
-LABEL "com.github.actions.name"="Gatsby Stats Poller"
+LABEL "com.github.actions.name"="Sprout Github Stats Poller"
 LABEL "com.github.actions.description"="Upload stats from GitHub API to Firestore"
 LABEL "com.github.actions.icon"="upload"
 LABEL "com.github.actions.color"="purple"
 
-LABEL "repository"="http://github.com/lannonbr/gatsby-github-stats"
-LABEL "homepage"="http://github.com/lannonbr/gatsby-github-stats"
-LABEL "maintainer"="Benjamin Lannon <benjamin@lannonbr.com>"
+LABEL "repository"="http://github.com/cssat/sprout-github-stats"
+LABEL "homepage"="http://github.com/cssat/sprout-github-stats"
+LABEL "maintainer"="Joe Mienko <mienko@uw.edu>"
 
 ADD package.json /package.json
 ADD yarn.lock /yarn.lock

@@ -1,4 +1,4 @@
-name: Gatsby GitHub Stats Screenshot
+name: Sprout GitHub Stats Screenshot
 on:
   schedule:
     - cron: "15 * * * *"
