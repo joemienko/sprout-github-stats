@@ -8,7 +8,7 @@ require("dotenv").config();
 let query = JSON.stringify({
   query: `
     query {
-      repository(owner: "gatsbyjs", name:"gatsby") {
+      repository(owner: "cssat", name:"sprout-issues") {
         openIssues: issues(states:OPEN) {
           totalCount
         }
